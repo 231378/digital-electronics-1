@@ -1,4 +1,4 @@
-# Lab 1: Josef Kaplan
+# Lab 1: Josef Kaplan1
 
 ### De Morgan's laws
 
