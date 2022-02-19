@@ -37,7 +37,9 @@ end architecture dataflow;
 1. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
    ![your figure](https://github.com/231378/digital-electronics-1/blob/main/labs/01-gates/images/3.png)
-
+   
+   ![your figure](https://github.com/231378/digital-electronics-1/blob/main/labs/01-gates/images/4.png)
+   
 2. Link to your public EDA Playground example:
 
    [Odkaz](https://www.edaplayground.com/x/jeJb)
