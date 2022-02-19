@@ -29,7 +29,7 @@ end architecture dataflow;
 | 1 | 0 | 1 | 1 | 1 | 1 |
 | 1 | 1 | 0 | 0 | 0 | 0 |
 | 1 | 1 | 1 | 0 | 0 | 0 |
-
+![your figure](https://github.com/231378/digital-electronics-1/blob/main/labs/01-gates/images/2.png)
 ### Distributive laws
 
 1. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
