@@ -6,14 +6,12 @@
 
 ```vhdl
 architecture Behavioral of multiplexer_3bit_4to1 is
-begin
-    
+begin  
     with sel_i select 
     f_o <= a_i when "00",
     b_i when "01",
     c_i when "10",
-    d_i when others;
-        
+    d_i when others;   
 end architecture Behavioral;
 ```
 
