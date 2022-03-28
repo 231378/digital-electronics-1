@@ -15,6 +15,8 @@ Due to the physiological properties of human vision, it is necessary that the ti
   > The figure above was created in [WaveDrom](https://wavedrom.com/) digital timing diagram online tool. The figure source code is as follows:
   >
   
+  ![wave](images/7-Segment-Display.png)
+  
   ![wave](images/wave.png)
   
   ```javascript
