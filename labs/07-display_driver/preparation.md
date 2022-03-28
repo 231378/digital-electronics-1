@@ -1,34 +1,5 @@
 # Lab 7: Driver for multiple seven-segment displays
 
-<!--
-![Logo](../../logolink_eng.jpg)
-<p align="center">
-  The Study of Modern and Developing Engineering BUT<br>
-  CZ.02.2.69/0.0/0.0/18_056/0013325
-</p>
--->
-
-### Learning objectives
-
-After completing this lab you will be able to:
-
-* Use several 7-segment displays
-* Use previously created modules in a new design
-* Understand how to use the multiplexer to switch between displays
-
-In this laboratory exercise, you will study the creation of a sequential circuit for multiplexing 7-segment displays. This allows you to display four or even eight-digit values, including the decimal point on the display.
-
-### Table of contents
-
-* [Preparation tasks](#preparation)
-* [Part 1: Synchronize Git and create a new folder](#part1)
-* [Part 2: VHDL code for display driver](#part2)
-* [Part 3: Top level VHDL code](#part3)
-* [Experiments on your own](#experiments)
-* [Lab assignment](#assignment)
-* [References](#references)
-
-<a name="preparation"></a>
 
 ## Preparation tasks (done before the lab at home)
 
@@ -43,6 +14,9 @@ Due to the physiological properties of human vision, it is necessary that the ti
 
   > The figure above was created in [WaveDrom](https://wavedrom.com/) digital timing diagram online tool. The figure source code is as follows:
   >
+  
+  ![wave](images/wave.png)
+  
   ```javascript
   {
   signal:
