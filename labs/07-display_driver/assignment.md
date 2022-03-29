@@ -28,17 +28,17 @@
                     when "10" =>
                         s_hex <= data2_i;
                         dp_o  <= dp_i(2);
-                        dig_o <= "1011";  
+                        dig_o <= "1011";
 
                     when "01" =>
                         s_hex <= data1_i;
                         dp_o  <= dp_i(1);
-                        dig_o <= "0001"; 
+                        dig_o <= "1101";
 
                     when others =>
                         s_hex <= data0_i;
                         dp_o  <= dp_i(0);
-                        dig_o <= "0000";
+                        dig_o <= "1110";
                 end case;
             end if;
         end if;
