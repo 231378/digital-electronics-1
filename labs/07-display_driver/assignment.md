@@ -28,15 +28,17 @@
                     when "10" =>
                         s_hex <= data2_i;
                         dp_o  <= dp_i(2);
-                        dig_o <= "1011";  -- DEFINE ALL OUTPUTS FOR "10" HERE
+                        dig_o <= "1011";  
 
                     when "01" =>
                         s_hex <= data1_i;
                         dp_o  <= dp_i(1);
-                        dig_o <= "0001"; -- DEFINE ALL OUTPUTS FOR "01" HERE
+                        dig_o <= "0001"; 
 
                     when others =>
-                        -- WRITE YOUR CODE HERE
+                        s_hex <= data0_i;
+                        dp_o  <= dp_i(0);
+                        dig_o <= "0000";
                 end case;
             end if;
         end if;
